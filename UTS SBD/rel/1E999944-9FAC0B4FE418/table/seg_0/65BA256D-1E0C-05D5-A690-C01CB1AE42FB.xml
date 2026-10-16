@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65BA256D-1E0C-05D5-A690-C01CB1AE42FB" name="BusinessOwner">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>39449B81-7E73-09D9-B3D0-75C6B4262671</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ownerNo" id="07BF1E38-FA94-D6CB-BEFD-9A3CABF84764">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>077B1D49-95EB-180F-CDB4-77A55E79B25A</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bName" id="2C23454C-0D36-9E05-0CCF-020B226CEABD">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>0639AD82-F29A-9355-8E0D-E7558B3EC835</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telNo" id="A52AFC77-96A7-54EC-7E4D-B40F4830736F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>EDBE1573-1405-BBC4-5123-9D312E2207C8</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36700373-0B96-8019-D070-CE2E3AFAE365" name="BusinessOwner_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>FEA8C47D-261F-9F2B-EECA-8766591F5188</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07BF1E38-FA94-D6CB-BEFD-9A3CABF84764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39449B81-7E73-09D9-B3D0-75C6B4262671" name="BusinessOwner">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:28:16 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ownerNo" id="077B1D49-95EB-180F-CDB4-77A55E79B25A">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:28:27 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bName" id="0639AD82-F29A-9355-8E0D-E7558B3EC835">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:28:36 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telNo" id="EDBE1573-1405-BBC4-5123-9D312E2207C8">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:28:44 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEA8C47D-261F-9F2B-EECA-8766591F5188" name="BusinessOwner PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:28:35 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>077B1D49-95EB-180F-CDB4-77A55E79B25A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

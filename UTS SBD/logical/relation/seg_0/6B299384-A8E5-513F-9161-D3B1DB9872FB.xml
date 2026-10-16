@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oversees" directorySegmentName="seg_0" id="6B299384-A8E5-513F-9161-D3B1DB9872FB">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:00:38 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<sourcePk>71E567DB-E628-2FDA-6096-EFB94705A886</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90C0A509-96E5-A667-3978-CEBAAACB473A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED96FEFD-F8A5-1168-F41A-AD3AC13DDEA3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

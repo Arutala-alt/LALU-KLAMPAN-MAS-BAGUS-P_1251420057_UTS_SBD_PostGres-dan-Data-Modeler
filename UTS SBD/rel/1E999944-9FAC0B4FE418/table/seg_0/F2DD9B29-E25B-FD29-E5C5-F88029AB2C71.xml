@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2DD9B29-E25B-FD29-E5C5-F88029AB2C71" name="Telephone">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>2FCA9BAB-69A9-84BA-1BF2-B13A2A409E20</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telNo" id="BAB47EF2-4F78-14D3-7FA0-E416E7EDDE33">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>070C48CD-30C5-102F-28CD-BEE24FFF13F3</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branchNo" id="AD4174D1-D196-21D8-5E27-9E4D6B6B34DA">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>98902474-3A66-18A2-0370-38FF64D4A718</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchNo" id="0DD9A31E-A564-8DA8-D7D4-8AF39B1AD2E9">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>02B470E8-86B0-7E48-5C02-815ED946ABFF</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC47D361-7F33-448D-72D6-692367719A54" referredColumn="29D4223D-D6C6-B0A5-1275-484283BBFCA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FADE7993-1C4C-BCE8-C058-C3C5265B1227" name="Telephone_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>C3256901-C4DB-0116-EF69-68E628095662</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB47EF2-4F78-14D3-7FA0-E416E7EDDE33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C94EE02-94F2-456B-E500-F108C6F9DE77" name="Telephone_Branch_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>34CA9F20-F39E-AF23-B59E-0EAF7FCB923C</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DD9A31E-A564-8DA8-D7D4-8AF39B1AD2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

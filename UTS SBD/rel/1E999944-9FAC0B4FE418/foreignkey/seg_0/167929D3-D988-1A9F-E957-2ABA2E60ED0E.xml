@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="167929D3-D988-1A9F-E957-2ABA2E60ED0E" containerWithKeyObject="B62935A2-B5FA-668D-EDD7-40C4BB9D8BF4" localFKIndex="58E6D757-4D33-3081-D263-9E904BBB1DBB" name="Viewing_PropertyForRent_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>48A64787-1802-77B1-9732-CF245A0BB4BA</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<referredTableLongName>PropertyForRent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EBBC909-3CD7-A6FA-AA20-690F4ECDF393</referredTableID>
+<keyObject>30A8629E-C6F7-8207-80B6-C5009EE08D8F</keyObject>
+<referredKeyID>30A8629E-C6F7-8207-80B6-C5009EE08D8F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>propertyNo,Branch_branchNo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

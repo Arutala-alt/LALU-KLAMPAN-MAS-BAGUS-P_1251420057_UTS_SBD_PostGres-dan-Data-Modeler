@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="216C6DB7-172F-2A91-0B63-0F1FFDB32434" name="Branch">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:11:35 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="branchNo" id="06002808-2F84-1D7B-5D64-FE55406F92BE">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:14:37 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Street" id="884A1E2D-A304-B927-6635-B9FA5E811244">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:18:03 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="8EF443CB-B600-FABE-2DB2-E09FB9320913">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:19:13 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postcode" id="88D81822-4746-CA6E-904E-AD3CB48F48A8">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:19:39 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staffNo" id="50626ABE-AF46-851E-06D2-83451BEF57CB">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:50:22 UTC</createdTime>
+<generatorID>5B06F27C-8090-8752-6B23-54B34CB34D31</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>AE7B9AD8-AF0F-3A79-435F-C55672DF8B53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branchNo1" id="1D1A6968-4F98-D263-74BF-5A3DF404625C">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:23:06 UTC</createdTime>
+<generatorID>5B06F27C-8090-8752-6B23-54B34CB34D31</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>07C0086D-CD08-7BB3-0331-CD8393B4AA7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="928C4D1F-900B-A5A9-4FCA-DCF17ADD47B7" name="Branch PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:16:39 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06002808-2F84-1D7B-5D64-FE55406F92BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

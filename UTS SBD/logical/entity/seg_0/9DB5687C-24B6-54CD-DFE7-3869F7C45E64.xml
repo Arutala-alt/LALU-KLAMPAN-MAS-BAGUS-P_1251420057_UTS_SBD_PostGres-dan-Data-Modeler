@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DB5687C-24B6-54CD-DFE7-3869F7C45E64" name="Lease">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:29:36 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="leaseNo" id="D5B754BF-1A67-B6C3-8E07-E7195BD66A9E">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:29:48 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rent" id="AD078A3A-4B25-14D5-6EF8-99F29C0E9B15">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:29:55 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paymentMethod" id="3DF40930-0A00-1D90-7F20-DF0F101B3E26">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:02 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deposit" id="6AEFFC78-D5B3-E00E-C2ED-3F8340EAC513">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:14 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="paid" id="0CBFBCDD-C49F-3237-376A-C0E3B38576AF">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:20 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rentStart" id="70914304-ED3B-D1C6-290C-3A9F147B092F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:26 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rentFinish" id="3A3CB2CE-AC2B-C10E-E7AD-3B5E73CC0CA8">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:40 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clientNo" id="9D6FF0A3-B6C8-4CDF-6467-58C5591579DC">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:30:49 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="propertyNo" id="6AE8FA07-F27B-CC3E-78FE-1E69565EB865">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:31:06 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clientNo1" id="D89F87EB-5F5D-EDD6-9350-214AF3CDE6BB">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:04:01 UTC</createdTime>
+<generatorID>DDC889C9-0790-760A-5A7B-54995D5A8A4D</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>61B58AF4-A8EF-CC57-D458-633EF7D4F9A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="propertyNo1" id="1A51160F-B98E-611C-C6CB-2E21CCA82453">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:05:31 UTC</createdTime>
+<generatorID>B438C5A3-918B-1D24-9DAE-761F170C270B</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>7ACCEF84-0F0B-54BE-B6A8-7BA08CDF10D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branchNo1" id="C5C38817-EE0E-5BDC-77A1-A45063BDF75B">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:05:31 UTC</createdTime>
+<generatorID>B438C5A3-918B-1D24-9DAE-761F170C270B</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>CC57EC96-1105-39F6-8FEF-3EA9EA5CD8D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5075E64-9C67-4892-B8AF-4F05F83831E5" name="Lease PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:29:54 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5B754BF-1A67-B6C3-8E07-E7195BD66A9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

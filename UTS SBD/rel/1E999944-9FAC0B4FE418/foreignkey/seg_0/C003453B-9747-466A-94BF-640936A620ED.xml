@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C003453B-9747-466A-94BF-640936A620ED" containerWithKeyObject="E7EE5C3E-2E7C-44FD-7A60-A6ACEA31E550" localFKIndex="A629B7E7-4088-FD95-5C66-58BAD149BD05" name="Advert_Newspaper_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>15889D8B-3BFA-BE71-8B80-DA6B32FB2FDE</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<referredTableLongName>Newspaper</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDAB39EE-BA9C-459E-2FE6-02F8207F47F3</referredTableID>
+<keyObject>0817D226-A696-2D4D-BDC0-BCE134EBFA6B</keyObject>
+<referredKeyID>0817D226-A696-2D4D-BDC0-BCE134EBFA6B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>newspaperName</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

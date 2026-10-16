@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDAB39EE-BA9C-459E-2FE6-02F8207F47F3" name="Newspaper">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>1F77DA61-5BA1-A5EC-92FE-CB5DD7B325DC</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="newspaperName" id="0AC57169-3679-B6B5-102C-672D2B495E5A">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>F787C519-3660-320A-8315-7E86C6E939A1</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0817D226-A696-2D4D-BDC0-BCE134EBFA6B" name="Newspaper_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>1390E793-8D7B-DEED-D987-5150B6634F8F</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC57169-3679-B6B5-102C-672D2B495E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

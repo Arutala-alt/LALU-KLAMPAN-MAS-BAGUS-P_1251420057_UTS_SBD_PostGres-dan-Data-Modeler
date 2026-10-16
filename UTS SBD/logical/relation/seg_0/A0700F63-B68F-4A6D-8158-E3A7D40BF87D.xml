@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POwns" directorySegmentName="seg_0" id="A0700F63-B68F-4A6D-8158-E3A7D40BF87D">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:07:28 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<sourcePk>9D1BB229-E57D-0DBD-826F-EFD45E8D0FFC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65148D1C-F1BB-1B5E-FB61-A72B67AB413F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED96FEFD-F8A5-1168-F41A-AD3AC13DDEA3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20B9FFC1-31EC-EE8D-3470-81E6EFB6B6CC" name="Advert">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:35:27 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="propertyNo" id="628B2B62-E445-9684-6D2D-49B09FD5C93C">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:35:35 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="newspaperName" id="CF58C400-4318-6C2E-34CD-4C06EC27FE3F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:35:55 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dateAdvert" id="A0CCC0AA-8EB3-5408-7AEE-BD2A1CED4D9E">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:36:04 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="B5AE7C30-4C51-2160-11F9-6AF8B698CB72">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:36:15 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="propertyNo1" id="E3352EA8-469C-466B-4DCE-881485C06D5F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:08:24 UTC</createdTime>
+<generatorID>7A6C39BA-8439-CF41-7349-D02CE02736C6</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>7ACCEF84-0F0B-54BE-B6A8-7BA08CDF10D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="branchNo1" id="911210E0-F606-64EF-E61E-0B38B8B8E2E8">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:08:24 UTC</createdTime>
+<generatorID>7A6C39BA-8439-CF41-7349-D02CE02736C6</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>CC57EC96-1105-39F6-8FEF-3EA9EA5CD8D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="newspaperName1" id="DCC3DE43-29C5-4607-F0F4-5BF243A59BED">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:08:54 UTC</createdTime>
+<generatorID>15889D8B-3BFA-BE71-8B80-DA6B32FB2FDE</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<referedAttribute>F787C519-3660-320A-8315-7E86C6E939A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99484E93-9B8C-A1B5-31AC-3FCFB410FFA2" name="Advert PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 01:35:51 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>628B2B62-E445-9684-6D2D-49B09FD5C93C</attributeRef>
+<attributeRef>CF58C400-4318-6C2E-34CD-4C06EC27FE3F</attributeRef>
+<attributeRef>A0CCC0AA-8EB3-5408-7AEE-BD2A1CED4D9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

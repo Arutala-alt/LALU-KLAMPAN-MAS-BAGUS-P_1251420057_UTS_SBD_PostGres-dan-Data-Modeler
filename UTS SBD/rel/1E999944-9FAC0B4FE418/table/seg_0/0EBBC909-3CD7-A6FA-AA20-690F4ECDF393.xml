@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EBBC909-3CD7-A6FA-AA20-690F4ECDF393" name="PropertyForRent">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>ED96FEFD-F8A5-1168-F41A-AD3AC13DDEA3</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="propertyNo" id="77D68784-1B8F-6CE4-1D73-33100638F0DF">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>7ACCEF84-0F0B-54BE-B6A8-7BA08CDF10D8</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="1D38A6F9-1831-A34B-C0FC-6AB358C21E27">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>B40A739E-46E6-4C2A-D242-8048EBBE3B3B</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="046CE6A1-2D07-556A-570D-5BFCE2FEC6F9">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>6C9FD35A-5587-1446-9F71-FD8DA281D917</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="4AE4C4F4-4DB4-BE7E-F61C-C1AAD323E756">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>607A40EF-9A25-0F31-5B1F-BBBCCAF69096</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="582A71A5-4789-B728-7A86-054303443863">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>C8EF1A68-BFCC-5C9F-D6D7-365A52AE29AD</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rooms" id="7EED9F5E-DB40-C53D-75C2-D4D7D682AFBF">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>CD04505D-4F61-B479-32A3-1C036E953B3E</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rent" id="5B05F918-727F-284E-721B-14094284FF9F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>F8C942B2-DE8D-0792-B492-842DC53D15BD</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ownerNo" id="04AE76A2-BE50-3CEF-9119-381C121420FC">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>1F1FFA0B-FA77-56D5-9EA0-98FFAD9F37FC</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staffNo" id="7C583D78-25EB-FF4E-68C8-060B8AE9E832">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>2D8D2BBD-5EF4-89B6-AC16-27497D559B69</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branchNo" id="0230B8C9-B4E7-2896-16AA-8771CA02C56C">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>F85CAA89-6CBF-D65D-E72C-5AFC7A6C9A01</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchNo" id="54A57764-E47E-0505-73EB-0987DC67A9EB">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>CC57EC96-1105-39F6-8FEF-3EA9EA5CD8D5</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E449548-3BE8-56BD-2A39-2C6904158868" referredColumn="29D4223D-D6C6-B0A5-1275-484283BBFCA4"/>
+</associations>
+</Column>
+<Column name="Staff_staffNo" id="2D1AAEDC-D7BC-3D8C-9350-31D6B93B7FB3">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>B462A32F-0EE0-767D-CFBA-E057A425A61B</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE465B7E-30B9-5C94-F488-76C93A953A70" referredColumn="E5D7DD16-41B1-3F3C-CC95-07750B4AE78C"/>
+</associations>
+</Column>
+<Column name="PrivateOwner_ownerNo" id="464AD849-5BD5-9B6A-A583-4C92CA63873E">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>B2C5DD47-A8AF-E8D8-D2CB-23D50026B23F</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21C7A78D-235F-7512-A202-F586854FBFEC" referredColumn="02B5BE18-657F-E0F2-ABDA-31CF00E2D075"/>
+</associations>
+</Column>
+<Column name="BusinessOwner_ownerNo" id="A1185DED-4969-DFCD-1D87-0632EB4448CC">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>5A0643AA-B2E0-3343-8485-DA068284483C</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F2A772D-AA16-91C3-832A-0C6F099E8AD5" referredColumn="07BF1E38-FA94-D6CB-BEFD-9A3CABF84764"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30A8629E-C6F7-8207-80B6-C5009EE08D8F" name="PropertyForRent_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>4D55F8B8-7EDB-4816-25C5-8993B8CE3920</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77D68784-1B8F-6CE4-1D73-33100638F0DF"/>
+<colUsage columnID="54A57764-E47E-0505-73EB-0987DC67A9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB9AAD7E-E7A1-C501-AD49-6C906BC34376" name="PropertyForRent_BusinessOwner_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>E699BEA5-0B13-A238-9268-AEB9F26189E4</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1185DED-4969-DFCD-1D87-0632EB4448CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED12F919-1043-97C4-E5B4-9C1F97C5EBAE" name="PropertyForRent_Branch_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>0901521E-4B02-941A-FBB5-A713AED96EF0</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54A57764-E47E-0505-73EB-0987DC67A9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="845BDBEC-D252-0518-47A3-183EF0720A71" name="PropertyForRent_Staff_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>6B299384-A8E5-513F-9161-D3B1DB9872FB</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D1AAEDC-D7BC-3D8C-9350-31D6B93B7FB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2316EE2-5F0F-FA25-87CC-E62977C6F2D8" name="PropertyForRent_PrivateOwner_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>A0700F63-B68F-4A6D-8158-E3A7D40BF87D</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464AD849-5BD5-9B6A-A583-4C92CA63873E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

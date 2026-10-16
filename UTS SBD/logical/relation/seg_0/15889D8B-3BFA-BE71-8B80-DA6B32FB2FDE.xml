@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Displays" directorySegmentName="seg_0" id="15889D8B-3BFA-BE71-8B80-DA6B32FB2FDE">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:08:54 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<sourcePk>1390E793-8D7B-DEED-D987-5150B6634F8F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1F77DA61-5BA1-A5EC-92FE-CB5DD7B325DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>20B9FFC1-31EC-EE8D-3470-81E6EFB6B6CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

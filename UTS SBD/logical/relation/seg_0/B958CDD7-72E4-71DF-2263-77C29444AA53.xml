@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Processes" directorySegmentName="seg_0" id="B958CDD7-72E4-71DF-2263-77C29444AA53">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:02:40 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<engineerTo>
+<item key="1E999944-F53D-E195-05B5-9FAC0B4FE418" value="true"/>
+</engineerTo>
+<sourcePk>71E567DB-E628-2FDA-6096-EFB94705A886</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>90C0A509-96E5-A667-3978-CEBAAACB473A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19ED38D1-08FD-B6D6-5E20-4CD5775CFFCC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

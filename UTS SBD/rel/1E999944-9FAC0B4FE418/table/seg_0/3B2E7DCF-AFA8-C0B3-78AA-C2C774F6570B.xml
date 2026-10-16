@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B2E7DCF-AFA8-C0B3-78AA-C2C774F6570B" name="Branch">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>216C6DB7-172F-2A91-0B63-0F1FFDB32434</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="branchNo" id="29D4223D-D6C6-B0A5-1275-484283BBFCA4">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>06002808-2F84-1D7B-5D64-FE55406F92BE</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="03F652DB-59C8-3588-3D10-D37132497FA9">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>884A1E2D-A304-B927-6635-B9FA5E811244</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="6AAC4771-4C9B-DF32-03AA-8B8988CAB425">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>8EF443CB-B600-FABE-2DB2-E09FB9320913</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="7C3A797C-54FA-9DE9-E321-B2D9D45E374D">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>88D81822-4746-CA6E-904E-AD3CB48F48A8</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_staffNo" id="85D35B73-0D74-0A21-4119-4748330A865D">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>50626ABE-AF46-851E-06D2-83451BEF57CB</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="branchNo1" id="FFF9EF3A-E968-D3EA-0A8F-846B13E0A175">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:49:31 UTC</createdTime>
+<generatorID>1D1A6968-4F98-D263-74BF-5A3DF404625C</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F634EE16-BE0E-322A-7EB3-BF47D07CCD5B" name="Branch_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>928C4D1F-900B-A5A9-4FCA-DCF17ADD47B7</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D4223D-D6C6-B0A5-1275-484283BBFCA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="865CCB1C-3B20-47CF-6788-D9918185532F" name="Branch__IDX">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B06F27C-8090-8752-6B23-54B34CB34D31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="85D35B73-0D74-0A21-4119-4748330A865D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB46CBD2-5BEE-BE14-FAA2-2BEDB2C88BC5" name="Branch__IDXv1">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:49:31 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B06F27C-8090-8752-6B23-54B34CB34D31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="85D35B73-0D74-0A21-4119-4748330A865D"/>
+<colUsage columnID="FFF9EF3A-E968-D3EA-0A8F-846B13E0A175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

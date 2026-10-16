@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B62935A2-B5FA-668D-EDD7-40C4BB9D8BF4" name="Viewing">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>392F213B-3DF7-6C65-A81E-373EE08A69B7</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="clientNo" id="09E83D54-6DB6-8ED2-16EA-49AF3BF00E52">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>B03AC8C1-CD1C-7D6A-98B4-A8A44B2591F0</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="propertyNo" id="3A0250BF-AD4F-1B2C-C820-2F89AB23F156">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>674C0A1F-963B-5D63-ABEB-D2DA5547D4C4</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="viewDate" id="2D2207CF-745C-5021-6B51-DB2C278220FD">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>6D5EC166-92D1-02A3-8358-C510EBD6DBFD</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="320047E5-458B-6059-40C1-913981EEEEF1">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>551891F2-052B-F278-0EDA-19443ABB3993</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_clientNo" id="940ABC87-E513-897B-CFBA-30296DABAD2F">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>FBC77EEF-ADA0-B114-5323-4DFACA780861</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6F9AE18-44AC-64A7-0A1E-B2A0AF4CAF85" referredColumn="3824DD2F-170F-34E8-65FC-AF60A44D9872"/>
+</associations>
+</Column>
+<Column name="PropertyForRent_propertyNo" id="3A3E3B54-EA90-8834-64A8-BD9975368447">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>4E6B1635-4A2A-85A0-197A-D5792ED90A12</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167929D3-D988-1A9F-E957-2ABA2E60ED0E" referredColumn="77D68784-1B8F-6CE4-1D73-33100638F0DF"/>
+</associations>
+</Column>
+<Column name="PropertyForRent_Branch_branchNo" id="FC6FEED0-01E3-3A7D-58B7-7CF8977687BB">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>10EC9C8E-9301-E31F-0626-3C242B9BB4A8</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167929D3-D988-1A9F-E957-2ABA2E60ED0E" referredColumn="54A57764-E47E-0505-73EB-0987DC67A9EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD5F76AB-0674-F209-C79B-0A50AA69E8A2" name="Viewing_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>1271B310-97D9-DDD5-76BD-00B9BFB62141</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E83D54-6DB6-8ED2-16EA-49AF3BF00E52"/>
+<colUsage columnID="3A0250BF-AD4F-1B2C-C820-2F89AB23F156"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD819C32-415A-FE01-B4D2-DF54D1E5E83E" name="Viewing_Client_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>11CAC126-EAB9-60C1-B4F9-9B4C5FC09327</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="940ABC87-E513-897B-CFBA-30296DABAD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58E6D757-4D33-3081-D263-9E904BBB1DBB" name="Viewing_PropertyForRent_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>48A64787-1802-77B1-9732-CF245A0BB4BA</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3E3B54-EA90-8834-64A8-BD9975368447"/>
+<colUsage columnID="FC6FEED0-01E3-3A7D-58B7-7CF8977687BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

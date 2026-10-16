@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1F4349B-0386-9090-E8D4-34DD688F1142" name="Manager">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>8EDC1E8D-9211-5658-CC52-8F91833B723F</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="staffNo" id="A8EF06E1-F698-9CDF-5B77-EAC9A73F5E00">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>AE7B9AD8-AF0F-3A79-435F-C55672DF8B53</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_branchNo" id="FFB06107-970F-271C-64E6-ACA3E2C3A298">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>07C0086D-CD08-7BB3-0331-CD8393B4AA7A</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_staffNo" id="7F79AD9A-6F43-51EC-C3CA-897B00E37943">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>B9895E35-0CB7-E9EB-D8FF-40D197826382</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D63D451C-68E2-F93E-A7F7-83A846CD3967" referredColumn="E5D7DD16-41B1-3F3C-CC95-07750B4AE78C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9149477C-DF6E-00D1-3CDB-00B40957961C" name="Manager_PK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>A35073F5-534B-FF00-2215-2651ECAEC1DC</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8EF06E1-F698-9CDF-5B77-EAC9A73F5E00"/>
+<colUsage columnID="FFB06107-970F-271C-64E6-ACA3E2C3A298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6295D5BB-3C6B-0799-3ADD-45E0BDFC2DF6" name="Manager__IDX">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>162FAD04-EA8E-BF14-2DDF-8F019665D8EC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7F79AD9A-6F43-51EC-C3CA-897B00E37943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="752695F9-60FA-B206-5C52-F283A62544C5" name="Manager__IDXv1">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5B06F27C-8090-8752-6B23-54B34CB34D31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FFB06107-970F-271C-64E6-ACA3E2C3A298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58089FD3-7AFA-B471-80FD-DA6B935D87D5" name="Manager_Staff_FK">
+<createdBy>MSI_</createdBy>
+<createdTime>2026-10-16 02:10:24 UTC</createdTime>
+<generatorID>162FAD04-EA8E-BF14-2DDF-8F019665D8EC</generatorID>
+<ownerDesignName>UTS SBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F79AD9A-6F43-51EC-C3CA-897B00E37943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
